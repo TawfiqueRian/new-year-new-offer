@@ -328,3 +328,66 @@ main{
     gap: 24px;
     margin-top: 48px;
 }
+
+/* subscribe section styles */
+
+.subscribe{
+    margin-top: 120px;
+    background-color: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg-icon{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 360px;
+}
+
+.sb-head{
+    font-size: 48px;
+    color: rgba(7, 2, 17, 1);
+    text-align: center;
+}
+
+.sb-des{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    width: 896px;
+    text-align: center;
+}
+
+.sbscrb-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 648px;
+    height: 72px;
+    border-radius: 9999px;
+    overflow: hidden;
+    border: none;
+    margin: 50px 140px;
+}
+
+.sb-input input[type="email"]{
+    width: 438px;
+    height: 72px;
+    border-radius: 0;
+    border: none;
+    padding: 10px 15px;
+}
+
+.sb-button input[type="submit"]{
+    width: 210px;
+    height: 72px;
+    font-size: 24px;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    border-radius: 0;
+    border: none;
+    padding-right: 30px;
+}
