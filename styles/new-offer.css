@@ -1,0 +1,90 @@
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* header styles */
+
+header{
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.greet{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.celebrate{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+.banner{
+    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.banner-content{
+    width: 632px;
+    height: 243px;
+}
+
+/* main styles */
+
+/* 65% offer */
+
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.offer-65{
+    margin: 120px;
+}
+
+.head-65{
+    font-size: 88px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);
+    text-align: center;
+}
+
+.sub-title{
+    font-size: 24px;
+    font-weight: 400px;
+    color: rgba(255, 0, 0, 1);
+    text-align: center;
+}
+
+.catagories{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(7, 2, 17, 1);
+    text-align: center;
+}
+
+.off-pic-65{
+    width: 802.9px;
+    height: 500px;
+    margin-left: 146px;
+    margin-top: 48px;
+}
